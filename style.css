@@ -947,3 +947,24 @@ footer {
     padding-block: 47px 92px;
   }
 }
+
+/* newly added */
+.hero__description::before {
+  content: " ";
+  background-image: linear-gradient(
+    to right,
+    var(--accent) 75%,
+    var(--accent) 75%
+  );
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-inline-end: 5px;
+}
+
+.no_space {
+  margin-block-end: 20px;
+}
+
+/* end of newly added */
