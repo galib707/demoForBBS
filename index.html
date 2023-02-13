@@ -19,13 +19,13 @@
     <title>A demo landing page for Conference</title>
   </head>
   <body>
+    <!--  
     <header class="header">
       <h2 class="visually-hidden">Header</h2>
       <div class="wrapper">
         <nav class="header__nav">
           <h2 class="visually-hidden">Navigation</h2>
           <a href="/" class="header__home">
-            <!-- Logo -->
             <span class="visually-hidden">(to home page)</span>
           </a>
           <a href="" class="header__social">
@@ -93,7 +93,36 @@
         </nav>
       </div>
     </header>
+  -->
 
+    <header>
+      <a href="index.html">
+        <img src="./assets/images/logo.png" id="logo" />
+      </a>
+      <div id="hr"></div>
+      <nav id="navbar-main">
+        <ul>
+          <li>
+            <a href="index.html" class="nav-text active"> HOME </a>
+          </li>
+          <li>
+            <a href="./scope.html" class="nav-text"> SCOPE </a>
+          </li>
+          <li>
+            <a href="./guideline.html" class="nav-text"> GUIDELINE </a>
+          </li>
+          <li>
+            <a href="./fees.html" class="nav-text"> FEES </a>
+          </li>
+          <li>
+            <a href="./awards.html" class="nav-text"> AWARDS </a>
+          </li>
+        </ul>
+      </nav>
+      <button id="nav-toggle">
+        <img src="./assets/images/icon-hamburger.svg" />
+      </button>
+    </header>
     <main id="main">
       <section class="hero">
         <div class="wrapper hero__wrapper bottom-border">
@@ -662,5 +691,6 @@
       </div>
     </footer>
     <script src="main.js"></script>
+    <script type="module" src="./js/home.js"></script>
   </body>
 </html>
