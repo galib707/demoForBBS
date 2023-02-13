@@ -181,13 +181,13 @@ main {
   margin: 0 auto;
   min-width: 460px;
   max-width: 700px;
-  margin-block-start: 10em;
+  margin-block-start: 5em;
 }
 .info-col {
   padding: 0 0 0 20px;
 }
 .info-heading {
-  background-color: var(--Very-Pale-Red);
+  background-color: var(--bg-body2);
   padding: 10px 0;
   border-radius: 24px 0 0 24px;
   margin: 0 auto;
@@ -204,10 +204,10 @@ main {
   width: 75%;
 }
 .info-heading span {
-  background-color: var(--Bright-Red);
+  background-color: var(--bg-body2);
   padding: 10px 25px;
   border-radius: 24px;
-  color: white;
+  color: var(--text1);
   font-size: 1.3rem;
   position: absolute;
   left: 0;
@@ -709,7 +709,7 @@ form button:hover {
 }
 
 .desc {
-  font-size: 0.7rem;
+  font-size: 1em;
   padding-block-end: 1em;
   padding-block-start: 1em;
   display: flex;
