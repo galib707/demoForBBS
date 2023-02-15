@@ -1,13 +1,13 @@
 .plan-card {
   background: #fff;
-  width: 15rem;
+  width: 20rem;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 10px;
   padding-bottom: 20px;
   border-radius: 10px;
   border-bottom: 4px solid #000446;
-  box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
+  /* box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3); */
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -28,7 +28,7 @@
 .etiquet-price {
   position: relative;
   background: #fdbd4a;
-  width: 14.46rem;
+  width: 19.46rem;
   margin-left: -0.65rem;
   padding: 0.2rem 1.2rem;
   border-radius: 5px 0 0 5px;
@@ -132,4 +132,19 @@
 }
 #award_place {
   color: var(--bg-body2);
+}
+
+#center {
+  justify-items: center;
+}
+#gold {
+  background-color: var(--gold);
+}
+
+#silver {
+  background-color: var(--silver);
+}
+
+#bronze {
+  background-color: var(--bronze);
 }

@@ -21,6 +21,11 @@
   --pale-blue: #d0d6f9;
   --white: #fff;
   --hover-grey: #979797;
+  --red: #ff605c;
+  --green: #00ca4e;
+  --gold: #ffd700;
+  --silver: #808080;
+  --bronze: #c9ae5d;
 }
 
 html,
@@ -503,7 +508,7 @@ css for date and schedule
 
 .box {
   display: inline-block;
-  align-items: center;
+  /* align-items: center; */
   width: 10px;
   height: 10px;
   padding: 1px;
@@ -999,6 +1004,7 @@ li a.nav-text:hover {
 button.nav-text.active,
 li a.nav-text.active {
   border-bottom: 2px solid var(--accent);
+  color: var(--accent);
 }
 
 li a.nav-text span {
@@ -1033,8 +1039,8 @@ header #hr {
   z-index: 1;
 }
 #navbar-main {
-  padding-left: 150px;
-  padding-right: 200px;
+  padding-left: 50px;
+  padding-right: 100px;
   position: relative;
   background-color: rgba(151, 151, 151, 0.1);
   backdrop-filter: blur(8px);
@@ -1044,7 +1050,7 @@ header #hr {
 #navbar-main ul {
   list-style-type: none;
   display: flex;
-  width: 500px;
+  width: 700px;
   justify-content: space-between;
 }
 

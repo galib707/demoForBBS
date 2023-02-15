@@ -6,7 +6,7 @@
 .container::before,
 .container::after {
   content: "";
-  background-color: #fab5704c;
+  /* background-color: #fab5704c; */
   position: absolute;
 }
 
@@ -17,21 +17,38 @@
   top: 30%;
   right: 7%;
 }
-
+/* 
 .container::after {
-  content: "";
+  content: '"';
   position: absolute;
   height: 3rem;
   top: 8%;
   right: 5%;
-  border: 1px solid;
+   border: 1px solid; 
+  font-size: 12em;
+  color: var(--green);
+  opacity: 0.3;
+} */
+.container::after {
+  content: "ICCBM 2023";
+  position: absolute;
+  height: 3rem;
+  top: 8%;
+  right: 5%;
+  /* border: 1px solid; */
+  font-size: 0.6em;
+  color: var(--accent);
+  opacity: 0.9;
+}
+.green {
+  color: var(--green);
 }
 
 .container .box {
-  width: 17em;
-  height: 15.875em;
+  width: 20em;
+  height: 12em;
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.074);
+  /* background-color: rgba(255, 255, 255, 0.074); */
   border: 1px solid rgba(255, 255, 255, 0.222);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
