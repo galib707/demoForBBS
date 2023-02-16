@@ -1022,8 +1022,9 @@ header {
 header #logo {
   display: block;
   transition: 0.25s ease-in;
-  width: 70px;
+  width: 100px;
   background-color: white;
+  border-radius: 50%;
 }
 
 header #logo:hover {
@@ -1165,6 +1166,15 @@ header #nav-toggle img {
   #navbar-main ul li:nth-of-type(4) {
     animation-delay: 0.5s;
   }
+  #navbar-main ul li:nth-of-type(5) {
+    animation-delay: 0.6s;
+  }
+  #navbar-main ul li:nth-of-type(6) {
+    animation-delay: 0.7s;
+  }
+  #navbar-main ul li:nth-of-type(7) {
+    animation-delay: 0.8s;
+  }
   @keyframes fadeIn {
     0% {
       transform: translateX(40px);
@@ -1188,4 +1198,36 @@ header #nav-toggle img {
 }
 
 /* end of navbar */
+
+#copyright {
+  font-size: 1rem;
+}
+#copyright span {
+  color: var(--accent);
+}
+
+#footer_nav {
+  display: flex;
+  /* border: 2px solid red; */
+  height: 100%;
+  justify-content: end;
+  align-items: end;
+}
+
+#footer_list {
+  font-size: 0.8rem;
+  padding: 0.5rem;
+}
+
+@media (max-width: 62.4988em) {
+  #footer_nav {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 4rem;
+  }
+}
+
 /* end of newly added */

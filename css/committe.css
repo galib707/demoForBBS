@@ -94,3 +94,7 @@
   width: var(--size);
   height: var(--size);
 }
+
+#z-index-remover {
+  z-index: 0;
+}

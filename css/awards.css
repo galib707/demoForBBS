@@ -148,3 +148,10 @@
 #bronze {
   background-color: var(--bronze);
 }
+
+#bg {
+  background-image: url("/assets/images/submission_bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

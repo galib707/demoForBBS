@@ -167,6 +167,13 @@ main {
   position: relative;
   overflow-x: hidden;
 }
+
+#bg {
+  background-image: url("/assets/images/submission_bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 #main-pattern {
   position: absolute;
   background-size: 340px 350px;
