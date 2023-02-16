@@ -483,6 +483,7 @@ css for date and schedule
 
 #extra_padding {
   margin-top: 5rem;
+  margin-block-end: 10rem;
 }
 /* end of css for date  */
 
