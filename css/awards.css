@@ -1,5 +1,5 @@
 .plan-card {
-  background: #fff;
+  background:var(--accent);
   width: 20rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -88,11 +88,12 @@
 
 .benefits-list ul li svg {
   width: 0.9rem;
-  fill: currentColor;
+  fill:white;
 }
 
 .benefits-list ul li span {
   font-weight: 300;
+  color: white;
 }
 
 .button-get-plan {
@@ -128,10 +129,10 @@
 }
 
 #award_amount {
-  color: var(--bg-body2);
+  color: white;
 }
 #award_place {
-  color: var(--bg-body2);
+  color:black;
 }
 
 #center {
@@ -150,7 +151,7 @@
 }
 
 #bg {
-  background-image: url("/assets/images/submission_bg.svg");
+  /* background-image: url("/assets/images/submission_bg.svg"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
