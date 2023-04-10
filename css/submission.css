@@ -720,7 +720,9 @@ form button:hover {
   font-size: 1em;
   padding-block-end: 1em;
   padding-block-start: 1em;
-  display: flex;
+  line-height: 1.6;
+  
+  /* display: flex; */
 }
 
 .submission_title_animation {
@@ -823,4 +825,10 @@ form button:hover {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.email_link,
+.emcs_website{
+  display: inline;
+  background-color: var(--bg-body2);
 }
