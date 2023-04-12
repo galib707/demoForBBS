@@ -1069,11 +1069,10 @@ header {
 
 header #logo {
   display: block;
-  /* transition: 0.25s ease-in; */
+  
   width: 100px;
   background-color: white;
-  /* border-radius: 50%; */
-  /* scale:1.5; */
+  
 }
 
 header #logo:hover {
@@ -1127,7 +1126,6 @@ header #nav-toggle img {
     margin-top: 10px;
   }
   #navbar-main {
-    /* padding-left: 75px; */
     padding-right: 20px;
   }
 }
@@ -1378,5 +1376,6 @@ background-color: var(--green);
 
 #emphasized_text{
   /* color:#00ca4e; */
+  font-size: 20px;
   
 }
