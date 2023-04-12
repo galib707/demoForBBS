@@ -1090,8 +1090,8 @@ header #hr {
   z-index: 1;
 }
 #navbar-main {
-  padding-left: 50px;
-  padding-right: 100px;
+  /* padding-left: 50px; */
+  padding-right: 20px;
   position: relative;
   background-color: var(--accent);
   backdrop-filter: blur(8px);
@@ -1102,7 +1102,7 @@ header #hr {
 #navbar-main ul {
   list-style-type: none;
   display: flex;
-  width: 780px;
+  width: 900px;
   justify-content: space-between;
 }
 
@@ -1127,8 +1127,8 @@ header #nav-toggle img {
     margin-top: 10px;
   }
   #navbar-main {
-    padding-left: 75px;
-    padding-right: 100px;
+    /* padding-left: 75px; */
+    padding-right: 20px;
   }
 }
 
