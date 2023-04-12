@@ -9,10 +9,14 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    /> -->
+    <link rel="stylesheet" href="./css/submission.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="css/scope.css" />
-    <link rel="stylesheet" href="css/submission.css" />
-
     <link
       rel="icon"
       type="image/png"
@@ -22,17 +26,12 @@
     <title>ICCBM 2023</title>
   </head>
   <body>
-    <header>
+     <header>
       <a href="index.html">
         <img src="./assets/images/logo.png" id="logo" />
       </a>
-      <a href="index.html">
-        <img class="scale_down" src="./assets/images/bracu_logo.png " id="logo" />
-      </a>
-      <a href="index.html">
-        <img src="./assets/images/emerald.svg" id="logo" />
-      </a>
-      <!-- <div id="hr"></div> -->
+   
+       <div id="hr"></div> 
       <nav id="navbar-main">
         <ul>
           <li>
@@ -45,7 +44,7 @@
             <a href="./committe.html" class="nav-text"> COMMITTEES </a>
           </li>
           <li>
-            <a href="./scope.html" class="nav-text "> SCOPE </a>
+            <a href="./scope.html" class="nav-text"> SCOPE </a>
           </li>
           <li>
             <a href="./submission.html" class="nav-text active"> SUBMISSIONS </a>
@@ -64,53 +63,67 @@
       <button id="nav-toggle">
         <img src="./assets/images/icon-hamburger.svg" />
       </button>
-    </header>
+    </header> 
+
+   
     <main id="main">
-      <section class="skills">
-        <!-- <div class="wrapper skills__wrapper bottom-border">
-          <h2 class="visually-hidden">Skills</h2>
-          <div class="sponsors">
-            <h3 class="skills__title" id="activities_and_timeline">Activities and Timeline</h3>
-          </div>
-        </div> -->
+      <div class="info-container grid-container">
+        <div class="info-main col-3 submission_title_animation skills__title">
+          <h2>General guideline</h2>
+        
+        </div>
 
-        <div class="wrapper" id="extra_padding">
-          <h3 class="skills__title" id="margin-top">General guideline: </h3>
-
-          
-            <p class="scope-heading text_color"> All submissions must be made via email to <a href="mailto:events.bbs@bracu.ac.bd" class="email_link">events.bbs@bracu.ac.bd</a>. This email address has been specifically designated for this purpose, and authors are kindly requested to use it for all communication related to the conference. By submitting their work through this email address, authors will be ensuring that their work is received by the relevant authorities in a timely and efficient manner.
+        <div class="info-row-container col-9">
+          <div class="info-col rightSlideIn_1">
+            <h3 class="info-heading">
+              <span>00</span>
+            </h3>
+            <p class="desc">All submissions must be made via email to <a href="mailto:events.bbs@bracu.ac.bd" class="email_link">events.bbs@bracu.ac.bd</a>. This email address has been specifically designated for this purpose, and authors are kindly requested to use it for all communication related to the conference. By submitting their work through this email address, authors will be ensuring that their work is received by the relevant authorities in a timely and efficient manner.
             </p>
-            <p class="scope-heading text_color">
-              Authors are requested to follow the standard EMCS Author Guidelines available at <a href="http://emeraldgrouppublishing.com/journal/emcs" target="_blank" class="emcs_website">http://emeraldgrouppublishing.com/journal/emcs</a>. Many other resources (templates,
+          </div>
+          <div class="info-col rightSlideIn_2">
+            <h3 class="info-heading">
+              <span>01</span>
+            </h3>
+            <p class="desc">Authors are requested to follow the standard EMCS Author Guidelines available at <a href="http://emeraldgrouppublishing.com/journal/emcs" target="_blank" class="emcs_website">http://emeraldgrouppublishing.com/journal/emcs</a>. Many other resources (templates,
               manuscript requirements, policies, and procedures, etc.) are available on the EMCS webpage via
               the above link. Other standard templates for case study and teaching note may also be considered.
             </p>
-            
-            <p class="scope-heading text_color">
+          </div>
+
+          <div class="info-col rightSlideIn_3">
+            <h3 class="info-heading">
+              <span>02</span>
+            </h3>
+            <p class="desc">
               Comprehensive teaching notes must accompany each case submission to enhance its context, objectives, and pedagogical implications for reviewers and potential users.
             </p>
-            <p class="scope-heading text_color">
+          </div>
+
+          <div class="info-col rightSlideIn_4">
+            <h3 class="info-heading">
+              <span>03</span>
+            </h3>
+            <p class="desc">
               The evaluation will be on the basis of originality and relevance to the conference theme and
               topics, completeness and conformity to the guidelines and manuscript specifications,
               methodology and accuracy of the information, and pedagogical and scholarly
               value/contributions.
             </p>
-            <p class="scope-heading text_color">
+          </div>
+          <div class="info-col rightSlideIn_4">
+            <h3 class="info-heading">
+              <span>04</span>
+            </h3>
+            <p class="desc">
               It is important to note that decisions on submissions will be made on a rolling basis, with each submission being subjected to a rigorous review process that takes into account the aforementioned criteria.
             </p>
-           
-
+          </div>
         </div>
-        <img
-          class="skills__rings"
-          src="/assets/images/pattern-rings.svg"
-          alt=""
-          width="530"
-          height="129"
-        />
-      </section>
+      </div>
+ 
     </main>
-
+    
     <section id="contact" class="contact bg-less-dark">
       <div class="wrapper contact__wrapper bottom-border">
         <div class="contact__text">
@@ -141,7 +154,7 @@
                   <a href="./committe.html" class="nav-text" id="footer_list"> COMMITTEES </a>
                 </li>
                 <li>
-                  <a href="./scope.html" class="nav-text " id="footer_list"> SCOPE </a>
+                  <a href="./scope.html" class="nav-text" id="footer_list"> SCOPE </a>
                 </li>
                 <li>
                   <a href="./submission.html" class="nav-text active" id="footer_list" > SUBMISSIONS </a>
@@ -183,10 +196,11 @@
             <span> BRAC University </span></a
           >
         </p>
+
+     
       </nav>
     </div>
   </footer>
-
     <script src="main.js"></script>
     <script type="module" src="./js/home.js"></script>
   </body>
