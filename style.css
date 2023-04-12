@@ -493,12 +493,16 @@ css for date and schedule
   font-size: 14px;
   border-radius: 0.5em;
   color:var(--white);
-
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(111, 120, 161, 0.5);
+  
+ 
 }
 
 
 .date p{
   color: var(--white);
+  text-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(111, 120, 161, 0.5); 
+  
 }
 
 .text_for_date {
