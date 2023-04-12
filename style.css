@@ -455,7 +455,7 @@ h1 > span {
 
 .skills__title {
   font-size: 2rem;
-  font-size: clamp(2rem, 0.33rem + 7.11vw, 3rem);
+  /* font-size: clamp(1rem, 0.33rem + 5vw, 3rem); */
   line-height: 1.17;
   margin-block-end: 2px;
   color: var(--accent);
@@ -1102,7 +1102,7 @@ header #hr {
 #navbar-main ul {
   list-style-type: none;
   display: flex;
-  width: 900px;
+  width: 1000px;
   justify-content: space-between;
 }
 
