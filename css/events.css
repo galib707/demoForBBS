@@ -1,0 +1,113 @@
+.submission_title_animation {
+    animation: leftSlidein 500ms ease-in-out forwards;
+  }
+  
+  @keyframes leftSlidein {
+    0% {
+      /* pushes the sun down past the viewport */
+      transform: translateX(-500px);
+      opacity: 0;
+    }
+    100% {
+      /* returns the sun to its default position */
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .rightSlideIn_1 {
+    animation: rightSlideIn_1 500ms ease-in-out forwards;
+  }
+  
+  @keyframes rightSlideIn_1 {
+    0% {
+      /* pushes the sun down past the viewport */
+      transform: translateX(500px);
+      opacity: 0;
+    }
+    100% {
+      /* returns the sun to its default position */
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .rightSlideIn_2 {
+    animation: rightSlideIn_2 600ms ease-in-out forwards;
+  }
+  
+  @keyframes rightSlideIn_2 {
+    0% {
+      /* pushes the sun down past the viewport */
+      transform: translateX(500px);
+      opacity: 0;
+    }
+    100% {
+      /* returns the sun to its default position */
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .rightSlideIn_3 {
+    animation: rightSlideIn_2 700ms ease-in-out forwards;
+  }
+  
+  @keyframes rightSlideIn_3 {
+    0% {
+      /* pushes the sun down past the viewport */
+      transform: translateX(500px);
+      opacity: 0;
+    }
+    100% {
+      /* returns the sun to its default position */
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .rightSlideIn_4 {
+    animation: rightSlideIn_2 800ms ease-in-out forwards;
+  }
+  
+  @keyframes rightSlideIn_4 {
+    0% {
+      /* pushes the sun down past the viewport */
+      transform: translateX(500px);
+      opacity: 0;
+    }
+    100% {
+      /* returns the sun to its default position */
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .rightSlideIn_5 {
+    animation: rightSlideIn_5 600ms ease-in-out forwards;
+  }
+  
+  @keyframes rightSlideIn_5 {
+    0% {
+      /* pushes the sun down past the viewport */
+      transform: translateX(500px);
+      opacity: 0;
+    }
+    100% {
+      /* returns the sun to its default position */
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .email_link,
+  .emcs_website{
+    display: inline;
+    background-color: var(--bg-body2);
+  }
+
+  .margin-top{
+    margin-block-start: 4rem;
+  }
+
+ 

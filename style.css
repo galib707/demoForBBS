@@ -1101,7 +1101,7 @@ header #hr {
 #navbar-main ul {
   list-style-type: none;
   display: flex;
-  width: 700px;
+  width: 850px;
   justify-content: space-between;
 }
 
@@ -1357,4 +1357,15 @@ background-color: var(--green);
 .theme_para{
   padding-block-start: 1rem;
   line-height: 1.5;
+}
+
+
+.intro_list {
+  margin-top: 1.8rem;
+  margin-block-end: 2rem;
+}
+
+.intro_list_items{
+  margin-top: 1rem;
+  margin-block-end: 1rem;
 }
