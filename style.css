@@ -431,7 +431,7 @@ h1 > span {
   }
 
   .hero__description {
-    width: 38ch;
+    /* width: 38ch; */
     margin-block-end: 66px;
   }
 }
@@ -1310,6 +1310,7 @@ header #nav-toggle img {
 /* sponsors styles */
 .sponsors{
   /* border: 2px solid red; */
+  width: 300px;
   display: flex;
   flex-wrap: wrap;
   padding-block: 3rem;
@@ -1329,7 +1330,7 @@ header #nav-toggle img {
   /* border: 2px solid black; */
   display: flex;
   /* justify-content: space-between; */
-  width: 80%;
+  /* width: 80%; */
   height: 100%;
   display: flex;
   gap: 4rem;
@@ -1434,28 +1435,28 @@ background-color: var(--green);
 }
 
 @media (max-width:1100px) {
-  .nav > .nav-btn {
+  .navbar-main > .nav-btn {
     display: inline-block;
     position: absolute;
     right: 0px;
     top: 0px;
   }
-  .nav > .nav-btn > label {
+  .navbar-main > .nav-btn > label {
     display: inline-block;
     width: 50px;
     height: 50px;
     padding: 13px;
   }
-  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+  .navbar-main > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
   }
-  .nav > .nav-btn > label > span {
+  .navbar-main > .nav-btn > label > span {
     display: block;
     width: 25px;
     height: 10px;
     border-top: 2px solid #eee;
   }
-  .nav > .nav-links {
+  .navbar-main > .nav-links {
     position: absolute;
     display: block;
     width: 100%;
@@ -1466,14 +1467,14 @@ background-color: var(--green);
     top: 50px;
     left: 0px;
   }
-  .nav > .nav-links > a {
+  .navbar-main > .nav-links > a {
     display: block;
     width: 100%;
   }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
+  .navbar-main > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
   }
-  .nav > #nav-check:checked ~ .nav-links {
+  .navbar-main > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
