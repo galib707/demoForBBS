@@ -1069,11 +1069,11 @@ header {
 
 header #logo {
   display: block;
-  transition: 0.25s ease-in;
+  /* transition: 0.25s ease-in; */
   width: 100px;
   background-color: white;
   /* border-radius: 50%; */
-  scale:1.5;
+  /* scale:1.5; */
 }
 
 header #logo:hover {
@@ -1349,6 +1349,10 @@ header #nav-toggle img {
   color: var(--accent);
 }
 
+.scale_down{
+  scale: .5;
+}
+
 
 #green_bg{
   
@@ -1370,4 +1374,9 @@ background-color: var(--green);
 .intro_list_items{
   margin-top: 1rem;
   margin-block-end: 1rem;
+}
+
+#emphasized_text{
+  /* color:#00ca4e; */
+  
 }
