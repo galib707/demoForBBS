@@ -94,7 +94,8 @@ h3 {
 
 .header-xl {
   font-size: 2.5rem;
-  font-size: clamp(2.5rem, 0.7rem + 7.68vw, 5.5rem);
+  /* font-size: clamp(2.5rem, 0.7rem + 7.68vw, 5.5rem); */
+  font-size: clamp(2rem, 0.5rem + 7vw, 5rem);
   letter-spacing: -0.028em;
   line-height: 1.1;
 }
@@ -329,11 +330,11 @@ h1 > span {
   .hero__image {
     position: relative;
     width: 42vw;
-    max-width: 445px;
+    max-width: 415px;
     /* width: 322px; */
     height: auto;
     left: auto;
-    right: 0;
+    right: -100px;
     translate: 0;
     border: 10px solid var(--accent);
     box-shadow: 2px 2px 2px rgb(53, 52, 52);
@@ -641,11 +642,11 @@ css for date and schedule
 .subtitle {
   margin-block-start: -1em;
   margin-block-end: 2em;
-  font-size: 2ch;
+  font-size: 1.8ch;
   color: white;
   border-radius: 5px;
   background-color: #275cab;
-  padding: .5em;
+  padding: .3em;
   box-shadow: 2px 2px 2px 2px rgb(32, 32, 32);
 }
 /* end of subtitle */
@@ -1019,7 +1020,7 @@ footer {
 }
 
 .no_space {
-  margin-block-end: 20px;
+  margin-block-end: 10px;
 }
 
 /* navbar */
@@ -1101,12 +1102,12 @@ header #hr {
 #navbar-main ul {
   list-style-type: none;
   display: flex;
-  width: 850px;
+  width: 780px;
   justify-content: space-between;
 }
 
 #navbar-main ul li a.nav-text {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 header #nav-toggle {
@@ -1171,6 +1172,7 @@ header #nav-toggle img {
     flex-direction: column;
     max-width: 100%;
     border: 0px;
+    overflow: scroll;
   }
   .sponsors_name{
     gap: 0rem;
@@ -1316,7 +1318,7 @@ header #nav-toggle img {
   /* margin-block-start: 3rem; */
   height: 150px;
   /* border-top: 2px solid var(--accent); */
-  overflow: scroll;
+  
     /* background-image: url("/assets/images/pattern.svg"); */
     background-repeat: no-repeat;
     background-position: center;
