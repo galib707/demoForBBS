@@ -76,7 +76,7 @@ body {
 }
 
 /* ========= Navigation Bar ========= */
-nav {
+/* nav {
   min-width: 420px;
   position: relative;
 }
@@ -130,7 +130,7 @@ nav .get-started {
 }
 #logo {
   margin-top: 10px;
-}
+} */
 .hamburger {
   background-image: url("images/icon-hamburger.svg");
   background-size: contain;
@@ -146,30 +146,30 @@ nav .get-started {
 
 /* ========= Header ========= */
 
-.header-img {
+/* .header-img {
   background-image: url("images/illustration-intro.svg");
   background-size: 100% 100%;
   width: 80%;
   max-width: 600px;
   min-height: 60vh;
   margin: 0 auto;
-}
-#header-heading {
+} */
+/* #header-heading {
   font-size: 3rem;
 }
 h2 {
   font-size: 2.3rem;
   width: 90%;
   margin: 30px auto 20px;
-}
+} */
 
 /* ========= Main ========== */
-main {
+/* main {
   margin: 30px 0;
   min-width: 460px;
   position: relative;
   overflow-x: hidden;
-}
+} */
 
 #bg {
   background-image: url("/assets/images/submission_bg.svg");
@@ -545,12 +545,12 @@ form button:hover {
   }
 
   /* =========== Header =========== */
-  header.grid-container {
+  /* header.grid-container {
     margin: 30px auto;
   }
   .header-img {
     order: 1;
-  }
+  } */
   h2 {
     margin: 20px 0 30px;
   }
@@ -834,3 +834,86 @@ form button:hover {
 {
   background-color: var(--bg-body2);
 }
+
+
+
+
+
+
+
+/* copied form style.css */
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 0 40px;
+  /* border: 2px solid red; */
+
+}
+
+header #logo {
+  display: block;
+  
+  width: 130px;
+  background-color: white;
+  /* border: 2px solid red; */
+  
+}
+
+.logo_container{
+  width: 40%;
+  /* border: 2px solid green; */
+}
+
+header #logo:hover {
+  transform: scale(0.9);
+}
+
+header #hr {
+  background-color: var(--accent);
+  min-width: 1px;
+  height: 1px;
+  flex-grow: 1;
+  transform: translateX(25px);
+  position: relative;
+  z-index: 1;
+}
+#navbar-main {
+  width: 60%;
+  padding-left: 25px;
+  padding-right: 20px;
+  position: relative;
+  background-color: var(--accent);
+  backdrop-filter: blur(8px);
+  z-index: 1;
+  box-shadow: 2px 2px 2px 2px rgb(54, 54, 54);
+  /* border: 2px solid red; */
+}
+
+#navbar-main ul {
+  list-style-type: none;
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+
+#navbar-main ul li a.nav-text {
+  padding: 20px 0;
+}
+
+header #nav-toggle {
+  background: none;
+  display: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+header #nav-toggle img {
+  display: block;
+}
+
+
+/* copied form style.css */

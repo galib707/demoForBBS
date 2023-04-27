@@ -1061,10 +1061,13 @@ li a.nav-text span {
 }
 
 header {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 30px 0 0 40px;
+  /* border: 2px solid red; */
+
 }
 
 header #logo {
@@ -1072,7 +1075,13 @@ header #logo {
   
   width: 130px;
   background-color: white;
+  /* border: 2px solid red; */
   
+}
+
+.logo_container{
+  width: 40%;
+  /* border: 2px solid green; */
 }
 
 header #logo:hover {
@@ -1089,6 +1098,7 @@ header #hr {
   z-index: 1;
 }
 #navbar-main {
+  width: 60%;
   padding-left: 25px;
   padding-right: 20px;
   position: relative;
@@ -1096,6 +1106,7 @@ header #hr {
   backdrop-filter: blur(8px);
   z-index: 1;
   box-shadow: 2px 2px 2px 2px rgb(54, 54, 54);
+  /* border: 2px solid red; */
 }
 
 #navbar-main ul {
