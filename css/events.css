@@ -110,4 +110,6 @@
     margin-block-start: 4rem;
   }
 
- 
+  #yellow_bg{
+    background-color: rgb(49, 18, 228);
+  }
