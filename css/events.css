@@ -111,5 +111,6 @@
   }
 
   #yellow_bg{
-    background-color: rgb(49, 18, 228);
+    background-color: rgb(231, 231, 3);
+    box-shadow: none;
   }
