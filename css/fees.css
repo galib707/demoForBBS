@@ -226,6 +226,15 @@
   background-color: #4133B7;
 }
 
+
+#doc_link{
+  color: var(--accent);
+  
+}
+
+#registration_process{
+  padding-bottom: 10px;
+}
 #no_padding{
   padding-bottom: 0px;
 }
